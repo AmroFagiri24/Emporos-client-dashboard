@@ -108,4 +108,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Initialization ---
     renderClients(); // Load and display existing data when the page loads
+
 });
