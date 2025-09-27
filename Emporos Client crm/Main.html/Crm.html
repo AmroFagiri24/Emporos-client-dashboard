@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Client CRM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <img src="../Image/Emporos-logo1.png" alt="Emporos Company Logo" class="company-logo">
+    <h1>EMPOROS CLIENTS DASHBORD</h1>
+
+    <section id="add-client">
+        <h2>Add New Client</h2>
+        <form id="client-form">
+            <input type="text" id="client-name" placeholder="Client Name" required>
+            <input type="tel" id="client-contact" placeholder="Contact Info (Email/Phone)" required>
+            <textarea id="client-need" placeholder="Client's Need/Project Details" required></textarea>
+            <select id="client-status" required>
+                <option value="" disabled selected>Select Status</option>
+                <option value="Not Contacted">Not Contacted</option>
+                <option value="Contacted">Contacted</option>
+                <option value="Negotiation">Negotiation</option>
+                <option value="Closed">Closed</option>
+            </select>
+            <button type="submit">Add Client</button>
+        </form>
+    </section>
+
+    <section id="client-list">
+        <h2>Client Pipeline</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Contact Info</th>
+                    <th>Need/Details</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="clients-table-body">
+                </tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

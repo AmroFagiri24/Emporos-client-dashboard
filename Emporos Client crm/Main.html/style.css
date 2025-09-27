@@ -1,0 +1,134 @@
+/* --- Logo Styling --- */
+
+.logo-header {
+    text-align: center; /* Center the image within the header */
+    padding: 20px 0 10px 0; /* Add some space above and below */
+}
+
+.company-logo {
+    /* Adjust this value to control the size of your logo */
+    max-height: 80px; 
+    width: auto;
+}
+
+/* * You might also want to adjust the top margin on your H1
+ * to bring it closer to the logo.
+ */
+h1 {
+    color: #003366;
+    text-align: center;
+    margin-top: 10px; /* Reduced margin to pull the title up */
+}
+
+/* ... (Rest of the CSS styles follow) ... */
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f8ff; /* Very Light Blue/Off-White */
+}
+
+h1, h2 {
+    color: #003366; /* Deep Corporate Blue */
+    text-align: center;
+}
+
+/* Form Styling */
+#add-client {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #a9dbff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#client-form input, #client-form select, #client-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Primary Button (Add Client) */
+#client-form button {
+    background-color: #0b6ab8; /* Dark Goldenrod / Tan-Gold Accent */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#client-form button:hover {
+    background-color: #00a9d7; /* Darker Gold on Hover */
+}
+
+/* Table Styling */
+#client-list {
+    max-width: 90%;
+    margin: 40px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table Header - Using the Deep Blue */
+th {
+    background-color: #006ad4;
+    color: #ffffff;
+}
+
+/* Delete Button Styling */
+.delete-btn {
+    background-color: #dc3545; /* Red for Delete */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+
+/* Status Colors (Visual CRM feedback) - Updated to be professional */
+/* Not Contacted (Urgent/Requires Action) */
+.status-NotContacted { 
+    background-color: #ffe0e0; /* Light Red */
+} 
+/* Contacted (In Progress) */
+.status-Contacted { 
+    background-color: #fffac7; /* Light Yellow/Tan */
+} 
+/* Negotiation (Close to Closing) */
+.status-Negotiation { 
+    background-color: #e0f0ff; /* Light Blue */
+} 
+/* Closed (Success) */
+.status-Closed { 
+    background-color: #e0ffe0; /* Light Green */
+}
